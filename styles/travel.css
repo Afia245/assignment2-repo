@@ -1,75 +1,97 @@
-@import url(;<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
- rel="stylesheet">)
-
-
- nav{
-    display: flex;
- }
-
-.title{
-    color: #131318;
-
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-span{
-    color: #FF5400;
-}
-.text-primary{
-    color: #FF5400;
+* {
+    font-family: 'Mulish', sans-serif;
 }
 
-nav >ul{
-    display: flex;
-}
-nav li {
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-text-decoration: none;
-color: #424247;
-}
-nav{
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.banner{
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #131318;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.list-item {
+    display: flex;
+    gap: 44px;
+    list-style: none;
+
+}
+
+.list-link {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.orange-text {
+    color: #FF5400;
+}
+
+.banner-section {
+    background-image: linear-gradient(#131318, #13131800), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-title {
     color: #FFF;
-
-font-family: Mulish;
-font-size: 64px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-align: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-color: #131318;
-background-image: url(file:///C:/Users/abc/Pictures/Group%2013%20(1)%20(1).png);
+    font-size: 64px;
+    font-weight: 800;
 }
 
-.banner .description{
+.website-paragraph {
     color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
 }
-.banner .button-primary{
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
     border-radius: 8px;
-    background-color: #FF5400
-    }
-    ul  .button-primary{
-        border-radius: 8px;
-        background: #FF5400;
-    }
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    l;
+    font-weight: 400;
+}
+
+.button-color {
+    background: #FF5400;
+}
+
+.tour-section {
+    display: flex;
+}
+
+.tour-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
